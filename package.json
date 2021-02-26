@@ -1,0 +1,23 @@
+{
+  "name": "dance_website",
+  "version": "1.0.0",
+  "description": "THIS IS A WEBSITE FOR DANCE ACADEMY",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubel103/Dance-Website-Using-PUG-and-NodeJs.git"
+  },
+  "author": "Rubel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rubel103/Dance-Website-Using-PUG-and-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Rubel103/Dance-Website-Using-PUG-and-NodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
