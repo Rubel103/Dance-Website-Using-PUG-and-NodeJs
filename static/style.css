@@ -44,7 +44,10 @@
 #navbar li a:hover{
     background-color: white;
     color: black;
-    transition: .2s linear;
+    border-radius: 16px;
+    outline: none;
+    /* transition: .1s linear; */
+   
 }
 
 
