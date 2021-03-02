@@ -5,6 +5,19 @@
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
 }
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 111px;
+}
+#logo img {
+    height: 50px;
+    filter: invert(1);
+}
 #navbar{
     background-color: #64051b;
     padding: 13px 14px;
@@ -13,7 +26,9 @@
 #navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    
+    
 
 }
 #navbar li{
@@ -40,9 +55,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 65px;
+    font-weight: bold;
     background: center / cover no-repeat url("/static/bg1.jpg");
-    opacity: .93;
+    opacity: .88;
     height: 450px;
     background-color: red;
     
@@ -50,9 +66,69 @@
 }
 
 #intro  div.small{
-    font-size: 27px;
+    font-size: 42px;
     padding-top: 10px;
+    font-weight: normal;
 } 
+
+#mission {
+    height: 380px;
+    width: 90%;
+    margin: auto;
+    /* background-color: #64051b; */
+    
+}
+
+#mission h3{
+    color: white;
+    color: #410211;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#mission h2{
+    color: #64051b;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid #64051b;
+    border-radius: 10px;
+    width: 29%;
+    height: 223px;
+    margin: 23px 20px;
+    padding: 8px 25px;
+    background: white;  
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img {
+    height: 148px;
+    padding:0 14px;
+    
+}
+.card-img img {
+    height: 120px;
+    padding: 0 14px;
+    margin: 19px 4px;
+}
+
+.card-content{
+    padding: 32px 0px;
+}
+.card-content p{
+    font-size: 19px;
+}
+
 
 #sponsor {
     height: 300px;
@@ -72,3 +148,8 @@
     background-color: black;
 
 }
+
+
+
+/* Responsive  */
+

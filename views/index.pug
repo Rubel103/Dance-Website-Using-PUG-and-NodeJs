@@ -8,6 +8,9 @@ html
   body 
     nav#navbar
         ul 
+            div#logo 
+                img(src="../static/img/logo.png")
+                | DANCER
             //- addding a tag with href 
             li #[a(href="/")  Home] 
             li #[a(href="/")  About] 
@@ -18,9 +21,42 @@ html
     section#intro 
         div Welcome To Dance Academy
         div.small Eat Sleep Dance Repeat
+   
+   
+    section#mission 
+        h3 Our Mission
+        
+        div.card 
+            h2 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png")
+
+                div.card-content 
+                    p This is the best dance academy.
+                
+        div.card 
+            h2 Dance The Way You Like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png")
+
+                div.card-content 
+                    p This is the best dance academy.
+                
+        div.card 
+            h2 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png")
+
+                div.card-content 
+                    p This is the best dance academy.
+                
     
     section#sponsor 
         h3 Our sponsors 
+
 
     footer#footer 
         | our footer here
