@@ -1,0 +1,23 @@
+doctype html
+
+html
+  head
+    title Dance Academy
+    block style 
+    block scripts
+      
+  body
+    nav#navbar
+        ul 
+            div#logo 
+                img(src="../static/img/logo.png")
+                | DANCER
+            //- addding a tag with href 
+            li #[a(href="/")  Home] 
+            li #[a(href="/")  About] 
+            li #[a(href="/")  Services] 
+            li #[a(href="/")  Class Info] 
+            li #[a(href="/")  Contact US] 
+    block content    
+    footer#footer 
+        | Copyright  ©  2021 || Dancer.com || All Rights Reserved
